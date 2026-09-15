@@ -1,0 +1,39 @@
+ body{
+    
+    }
+nav{
+    background-color: blue;
+    color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 60px;
+}
+
+#leftside{
+h1{
+    margin-top: 0%;
+}
+width: 60%;
+}
+#rightside{
+   width: 40%;
+ 
+}
+.container{
+    display: flex;
+}
+.creat{
+    color: white;
+    background-color: green;
+}
+.navleft{
+    margin: 20px;
+  
+    width: 45%;
+}
+.navright{
+    margin-left: 50%;
+    margin-left: 0%;
+  
+}

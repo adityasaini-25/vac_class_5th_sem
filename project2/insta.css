@@ -1,0 +1,14 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+.login-box{
+    border: 1px;
+   
+}
+.login-btn{
+    margin-top: 20px;
+}
