@@ -2,67 +2,79 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Instagram Login</title>
 
     <link rel="stylesheet" href="insta.css">
+
 </head>
 
 <body>
 
-    <div class="login-container">
+    <div class="container">
 
-
+        <!-- Login Box -->
         <div class="login-box">
 
-            <h1>Instagram</h1>
+            <h1 class="logo">Instagram</h1>
 
-            <form>
+            <input class="input-box" type="text" placeholder="Phone number, username, or email">
 
-                <input type="text" placeholder="Phone number, username, or email">
-                <br><br>
-                <input type="password" placeholder="Password">
-<br>
-                <button class="login-btn" type="submit">Log in</button>
+            <input class="input-box" type="password" placeholder="Password">
 
-            </form>
+            <button class="login-btn">
+                Log in
+            </button>
 
+            <!-- OR -->
             <div class="or">
-                <span></span>
-                <p>OR</p>
-                <span></span>
+
+                <div class="line"></div>
+
+                <span class="or-text">OR</span>
+
+                <div class="line"></div>
+
             </div>
 
-            <a href="../project1/facebook_loginpage.html" class="facebook-login">
+            <!-- Facebook -->
+            <a href="../project1/facebook_loginpage.html" class="facebook">
                 Log in with Facebook
             </a>
 
+            <!-- Forgot password -->
             <a href="#" class="forgot">
                 Forgot password?
             </a>
 
         </div>
 
-     
+
+        <!-- Signup -->
         <div class="signup-box">
 
-            <p>
-                Don't have an account?
-                <a href="#">Sign up</a>
-            </p>
+            Don't have an account?
+            <a href="#" class="signup">
+                Sign up
+            </a>
 
         </div>
 
 
+        <!-- Get App -->
         <div class="get-app">
 
             <p>Get the app.</p>
 
-            <div class="app-buttons">
+            <div class="app-btn">
+
                 <button>Google Play</button>
+
                 <button>App Store</button>
+
             </div>
 
         </div>
